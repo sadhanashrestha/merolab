@@ -3,9 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sweet Crumbs Bakery</title>
+<title>Golden Oven Bakery</title>
 
-<!-- Google Font -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
 <style>
@@ -13,16 +12,16 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family:'Poppins',sans-serif;
 }
 
 body{
-    background:#fff8f3;
+    background:#fff7f0;
     color:#333;
 }
 
 header{
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
     url('https://images.unsplash.com/photo-1509440159596-0249088772ff');
     background-size:cover;
     background-position:center;
@@ -39,15 +38,15 @@ header h1{
 }
 
 header p{
-    font-size:1.2rem;
     margin-top:10px;
+    font-size:1.2rem;
 }
 
 .btn{
     display:inline-block;
     margin-top:20px;
     padding:12px 25px;
-    background:#ff8c42;
+    background:#ff7f50;
     color:white;
     text-decoration:none;
     border-radius:30px;
@@ -55,7 +54,7 @@ header p{
 }
 
 .btn:hover{
-    background:#e76f51;
+    background:#e85d04;
 }
 
 section{
@@ -71,7 +70,7 @@ section{
 
 .products{
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:25px;
 }
 
@@ -89,7 +88,7 @@ section{
 
 .card img{
     width:100%;
-    height:200px;
+    height:220px;
     object-fit:cover;
 }
 
@@ -102,17 +101,19 @@ section{
     color:#e63946;
     font-weight:bold;
     margin:10px 0;
+    font-size:1.1rem;
 }
 
-.order{
-    background:#fff3e6;
-    border-radius:15px;
+.order-section{
+    background:#ffe8d6;
+    border-radius:20px;
     padding:40px;
     text-align:center;
 }
 
 .order-method{
     margin:20px 0;
+    font-size:1.1rem;
 }
 
 footer{
@@ -128,23 +129,23 @@ footer{
 
 <header>
     <div>
-        <h1>Sweet Crumbs Bakery</h1>
-        <p>Freshly baked happiness every day</p>
-        <a href="#products" class="btn">Explore Menu</a>
+        <h1>Golden Oven Bakery</h1>
+        <p>Freshly Baked Happiness Everyday</p>
+        <a href="#products" class="btn">View Menu</a>
     </div>
 </header>
 
 <section id="products">
-    <h2 class="section-title">Our Delicious Products</h2>
+    <h2 class="section-title">Our Special Items</h2>
 
     <div class="products">
 
         <div class="card">
             <img src="https://images.unsplash.com/photo-1603532648955-039310d9ed75" alt="Chocolate Cake">
             <div class="card-content">
-                <h3>Chocolate Cake</h3>
-                <p>Rich, moist chocolate layered cake.</p>
-                <div class="price">$25</div>
+                <h3>Chocolate Truffle Cake</h3>
+                <p>Rich chocolate layered delight.</p>
+                <div class="price">₹1,299</div>
             </div>
         </div>
 
@@ -152,26 +153,26 @@ footer{
             <img src="https://images.unsplash.com/photo-1542826438-bd32f43d626f" alt="Croissant">
             <div class="card-content">
                 <h3>Butter Croissant</h3>
-                <p>Flaky and buttery French croissant.</p>
-                <div class="price">$4</div>
+                <p>Flaky & freshly baked French style.</p>
+                <div class="price">₹120</div>
             </div>
         </div>
 
         <div class="card">
             <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c" alt="Cupcakes">
             <div class="card-content">
-                <h3>Vanilla Cupcakes (6 pack)</h3>
-                <p>Soft cupcakes topped with cream frosting.</p>
-                <div class="price">$12</div>
+                <h3>Vanilla Cupcakes (6 pcs)</h3>
+                <p>Soft cupcakes with creamy frosting.</p>
+                <div class="price">₹499</div>
             </div>
         </div>
 
         <div class="card">
             <img src="https://images.unsplash.com/photo-1505253213348-cd54cbd8a6b4" alt="Strawberry Cake">
             <div class="card-content">
-                <h3>Strawberry Cake</h3>
-                <p>Fresh strawberry layered delight.</p>
-                <div class="price">$28</div>
+                <h3>Strawberry Cream Cake</h3>
+                <p>Fresh strawberry & whipped cream.</p>
+                <div class="price">₹1,499</div>
             </div>
         </div>
 
@@ -181,30 +182,34 @@ footer{
 <section>
     <h2 class="section-title">How To Order</h2>
 
-    <div class="order">
+    <div class="order-section">
+
         <div class="order-method">
-            📞 <strong>Call Us:</strong> +1 234 567 890
+            📞 <strong>Call Us:</strong> +91 98765 43210
         </div>
 
         <div class="order-method">
-            💬 <strong>WhatsApp:</strong> Send your order to +1 234 567 890
+            💬 <strong>WhatsApp Order:</strong> +91 98765 43210
         </div>
 
         <div class="order-method">
-            🌐 <strong>Online Order:</strong> Click the button below
-            <br><br>
+            🛒 <strong>Online Order:</strong>
+            <br>
             <a href="#" class="btn">Order Now</a>
         </div>
 
         <div class="order-method">
-            🏬 <strong>Visit Our Store:</strong> 123 Sweet Street, Dessert City
+            🏪 <strong>Visit Our Store:</strong><br>
+            45 Sweet Lane, Bakery Street, Mumbai
         </div>
+
     </div>
 </section>
 
 <footer>
-    © 2026 Sweet Crumbs Bakery | Freshly Baked with Love ❤️
+    © 2026 Golden Oven Bakery | Made with Love ❤️
 </footer>
 
 </body>
 </html>
+
